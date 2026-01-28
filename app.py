@@ -11,7 +11,7 @@ st.write("CSS2026 :)")
 
 st.title("Would you love me if i was a worm and if so by how much")
 
-st.write("Hello, Sihle !")
+st.write("Hello !")
 
 st.header("Number selection")
 
@@ -21,5 +21,6 @@ st.write(f"You picked: {number}")
 #mark down - paragraphs and texts as ell as emoji
 
 st.markdown(" Thank you ")
+
 
 
