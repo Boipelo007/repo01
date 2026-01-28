@@ -19,4 +19,5 @@ number = st.slider("Pick a number", 1, 100)
 st.write(f"You picked: {number}")
 
 #mark down - paragraphs and texts as ell as emoji
-st.markdown("some text you can write")
+
+st.markdown("HI Ma")
