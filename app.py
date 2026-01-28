@@ -9,16 +9,17 @@ import streamlit as st
 
 st.write("CSS2026 :)")
 
-st.title("What is my allowance for February  ")
+st.title("Would you love me if i was a worm and if so by how much")
 
-st.write("Hello, Ma !")
+st.write("Hello, Sihle !")
 
 st.header("Number selection")
 
-number = st.slider("Pick a number", 1, 2000)
+number = st.slider("Pick a number", 1, 3000)
 st.write(f"You picked: {number}")
 
 #mark down - paragraphs and texts as ell as emoji
 
-st.markdown("Thank you Ma")
+st.markdown(" Thank you ")
+
 
