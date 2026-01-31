@@ -30,13 +30,13 @@ if menu == "Student Profile":
     # Collect basic information
     name = "Boipelo Letwaba"
     qualification = "BCom specialising in Economics"
-    current_studies = "Bcom Honours specialising in Business Analytics "
+    studying = "Bcom Honours specialising in Business Analytics "
     institution = "University of the Free State"
 
     # Display basic profile information
     st.write(f"**Name:** {name}")
     st.write(f"**Qualification:** {qualification}")
-    st.write(f"**Studing:**{studing}")
+    st.write(f"**Studing:** {studing}")
     st.write(f"**Institution:** {institution}")
     
     st.image(
@@ -70,8 +70,9 @@ elif menu == "Qualifications":
 elif menu == "Contact":
     # Add a contact section
     st.header("Contact Information")
-    email = "boipeloletwaba@outlook.come"
+    email = "boipeloletwaba@outlook.com"
     st.write(f"You can reach me at {email}.")
+
 
 
 
