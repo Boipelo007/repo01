@@ -42,7 +42,7 @@ if menu == "Student Profile":
     caption=" B Letwaba"
 )
 elif menu =="About me"
-st.markdown(" I am Boipelo Letwaba a Business Analytics Honours student at the University of the Free State. I am a one time Golden Key Recipient, Allan Gray Achiever as well as one of the Top performing students in the Economics and Finance faculty. I will be the first perdon in my family to graduate with an BCom specialising in Economics degree later this year ")
+st.markdown(" : I am Boipelo Letwaba a Business Analytics Honours student at the University of the Free State. I am a one time Golden Key Recipient, Allan Gray Achiever as well as one of the Top performing students in the Economics and Finance faculty. I will be the first perdon in my family to graduate with an BCom specialising in Economics degree later this year. ")
 elif menu == "Academic record":
     st.title("Academic record")
     st.sidebar.header("Upload and Filter")
@@ -71,6 +71,7 @@ elif menu == "Contact":
     st.header("Contact Information")
     email = "boipeloletwaba@outlook.com"
     st.write(f"You can reach me at {email}.")
+
 
 
 
