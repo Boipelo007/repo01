@@ -36,7 +36,7 @@ if menu == "Student Profile":
     st.write(f"**Name:** {name}")
     st.write(f"**Qualification:** {qualification}")
     st.write(f"**Institution:** {institution}")
-     st.write(f"**Studing:** {studing}")
+    st.write(f"**Studing:** {studing}")
     st.image(
     "https://drive.google.com/file/d/1VsR957T_b8_vhReu3exHqJRF6IyFHqRS/view?usp=sharing",
     caption=" B Letwaba"
@@ -70,6 +70,7 @@ elif menu == "Contact":
     st.header("Contact Information")
     email = "boipeloletwaba@outlook.com"
     st.write(f"You can reach me at {email}.")
+
 
 
 
