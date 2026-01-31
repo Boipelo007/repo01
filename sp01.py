@@ -18,7 +18,7 @@ st.set_page_config(page_title="Student Profile", layout="wide")
 st.sidebar.title("Navigation")
 menu = st.sidebar.radio(
     "Go to:",
-    ["Student Profile", "Academic record", "Qualifications", "Contact"],
+    ["Student Profile","About me", "Academic record", "Qualifications", "Contact"],
 )
 
 
@@ -41,7 +41,8 @@ if menu == "Student Profile":
     "https://theforage.wpengine.com/wp-content/uploads/2023/03/business-analyst-career-path-1.jpg",
     caption=" B Letwaba"
 )
-
+elif menu =="About me"
+st.markdown(" I am Boipelo Letwaba a Business Analytics Honours student at the University of the Free State. I am a one time Golden Key Recipient, Allan Gray Achiever as well as one of the Top performing students in the Economics and Finance faculty. I will be the first perdon in my family to graduate with an BCom specialising in Economics degree later this year ")
 elif menu == "Academic record":
     st.title("Academic record")
     st.sidebar.header("Upload and Filter")
@@ -70,6 +71,7 @@ elif menu == "Contact":
     st.header("Contact Information")
     email = "boipeloletwaba@outlook.com"
     st.write(f"You can reach me at {email}.")
+
 
 
 
