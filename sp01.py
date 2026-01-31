@@ -40,7 +40,7 @@ if menu == "Student Profile":
     st.write(f"**Institution:** {institution}")
     
     st.image(
-    "C:\Users\boipe\OneDrive\Pictures\WhatsApp Image 2025-10-10 at 12.12.18_8757f497.jpg",
+    "https://drive.google.com/file/d/1VsR957T_b8_vhReu3exHqJRF6IyFHqRS/view?usp=sharing",
     caption=" B Letwaba"
 )
 
@@ -72,6 +72,7 @@ elif menu == "Contact":
     st.header("Contact Information")
     email = "boipeloletwaba@outlook.come"
     st.write(f"You can reach me at {email}.")
+
 
 
 
