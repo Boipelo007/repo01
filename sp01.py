@@ -36,11 +36,11 @@ if menu == "Student Profile":
     # Display basic profile information
     st.write(f"**Name:** {name}")
     st.write(f"**Qualification:** {qualification}")
-    st.write(f"**Current_studies:**{current_studies}")
+    st.write(f"**Studing:**{studing}")
     st.write(f"**Institution:** {institution}")
     
     st.image(
-    "https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png",
+    "C:\Users\boipe\OneDrive\Pictures\WhatsApp Image 2025-10-10 at 12.12.18_8757f497.jpg",
     caption=" B Letwaba"
 )
 
@@ -72,5 +72,6 @@ elif menu == "Contact":
     st.header("Contact Information")
     email = "boipeloletwaba@outlook.come"
     st.write(f"You can reach me at {email}.")
+
 
 
